@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "NEW_RELIC_APP_NAME=node-app NEW_RELIC_LICENSE_KEY=a9ca3cd8c0f2c607a7a8de1c7c5d2b14FFFFNRAL node -r newrelic YOUR_MAIN_FILENAME.js",
+    "start": "NEW_RELIC_APP_NAME=new-relic-practice NEW_RELIC_LICENSE_KEY=a9ca3cd8c0f2c607a7a8de1c7c5d2b14FFFFNRAL node -r newrelic index,js.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
